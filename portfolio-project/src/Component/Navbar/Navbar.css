@@ -1,0 +1,29 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 60px;
+    font-size: 20px;
+}
+
+
+.nav-connect {
+color: black;
+    padding: 20px 40px;
+    border-radius: 50px;
+    background-color: aliceblue;
+    font-size: 22px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.nav-connect :hover{
+    transform: scale(1.05);
+     
+}
