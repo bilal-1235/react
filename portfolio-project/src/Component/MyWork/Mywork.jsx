@@ -15,7 +15,7 @@ import arrow_icon from  '../../assets/arrow_icon.svg'
     </div>
     <div className="mywork-container">
         {mywork_data.map((work,index)=>{
-            return <img key={index} scr={work.w_img} alt=""/>
+            return <img key={index} src={work.w_img} alt=""/>
         })}
     </div>
     <div className="mywork-showmore">
